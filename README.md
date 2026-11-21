@@ -1,0 +1,2 @@
+# pixaro-store
+jc web
