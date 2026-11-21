@@ -1,0 +1,89 @@
+.pxShop{min-height:100vh;background:#101015;color:#f2eff9;font:15px/1.5 Inter,"PingFang TC",system-ui,sans-serif;color-scheme:dark}.pxShop *{box-sizing:border-box}.pxShop a{color:inherit;text-decoration:none}.pxShop button,.pxDiscord,.pxHero a{border:1px solid #4b4559;border-radius:8px;background:#28242e;color:inherit;padding:8px 13px;cursor:pointer}.pxShop button:hover,.pxShop button[aria-pressed=true],.pxShop a:hover{color:#d7c4ff;border-color:#9673d6}.pxShop header{display:flex;align-items:center;gap:22px;padding:16px 4vw;border-bottom:1px solid #35313f;background:#19171e}.pxBrand{display:flex;align-items:center;gap:10px;font-weight:850;font-size:24px;letter-spacing:.07em}.pxBrand img{width:34px}.pxShop input,.pxShop textarea{background:#211e28;color:inherit;border:1px solid #504859;border-radius:8px;padding:10px}.pxShop input{margin-left:auto;width:min(28vw,380px)}.pxShop .pxDiscord{background:#24212a;color:#e6dbee}.pxBody{max-width:1560px;margin:auto;display:grid;grid-template-columns:185px minmax(0,1fr);gap:26px;padding:24px 3vw}.pxShop aside{border-right:1px solid #302c38;padding-right:16px}.pxShop aside h2,.pxShop small{font-size:13px;color:#c1b6d2}.pxShop aside button{display:block;margin:8px 0;width:100%;text-align:left;background:transparent;border-color:transparent}.pxShop aside button[aria-pressed=true]{background:#352944}.pxShop footer{margin-top:36px;padding:20px 0;color:#b5adbf;border-top:1px solid #393340}.pxShop dialog{margin:auto;width:min(440px,94vw);background:#211d29;border:1px solid #68527c;color:#f4efff;border-radius:16px;padding:24px}.pxShop dialog textarea{display:block;width:100%;margin:16px 0}.pxShop dialog::backdrop{background:#06050bc9}.pxClose{float:right}.pxShop :focus-visible{outline:2px solid #cba7ff;outline-offset:2px}
+.pxResults { color:#c4baca; flex-wrap:wrap; font-size:.875rem }
+.pxShop .pxResults button { padding:4px 8px; font-size:.875rem }
+.pxBudget { margin:24px 0 0; padding:10px 0; border:0; min-width:0 }
+.pxBudget legend { font-size:.875rem; font-weight:700; color:#dfd3eb }
+.pxBudgetLine { color:#cac0d1; flex-wrap:wrap; font-size:.875rem }
+.pxBudget output { color:#dbc2ff; font-weight:650 }
+.pxSlider { display:flex; position:relative; align-items:center; height:40px; touch-action:none; user-select:none; margin:2px 8px }
+.pxTrack { position:relative; flex:1; height:5px; background:#51475d; border-radius:6px }
+.pxRange { position:absolute; background:#b48adf; border-radius:6px; height:100% }
+.pxThumb { display:block; width:20px; height:20px; border:2px solid #bd9af0; background:#f0e5ff; border-radius:100%; cursor:grab }
+.pxPresets { display:flex; flex-wrap:wrap; gap:6px }
+.pxShop .pxPresets button { width:auto; margin:0; padding:5px 8px; border:1px solid #50445c; font-size:.875rem }
+
+.pxShop main { min-width:0 }
+.pxShop footer,.pxSectionHeading,.pxBudgetLine,.pxResults,.pxHeroOffer,.pxHeroPager,.pxGroupHead { display:flex; align-items:center; gap:12px }
+.pxShop footer,.pxSectionHeading,.pxBudgetLine { justify-content:space-between }
+.pxHero { display:grid; grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr); overflow:hidden; border-radius:16px; background:#211b2c; border:1px solid #44374f }
+.pxHeroPanel { min-width:0; padding:clamp(24px,3vw,48px) }
+.pxHeroPanel h1 { margin:0 0 16px; color:#c7a4f5; font-size:.875rem; font-weight:700; letter-spacing:.08em }
+.pxHeroViewport { overflow:hidden }
+.pxHeroRail { display:flex; touch-action:pan-y pinch-zoom }
+.pxHeroSlide { flex:0 0 100%; min-width:0; overflow-wrap:anywhere; padding:3px }
+.pxHeroMeta,.pxHeroSpec { color:#d5cadf; margin:0; font-size:.9375rem }
+.pxHeroSlide h2,.pxHeroEmpty h1 { margin:6px 0 10px; font-size:clamp(1.8rem,3.5vw,3.6rem); font-weight:750; letter-spacing:-.035em; line-height:1.1 }
+.pxHeroOffer { flex-wrap:wrap; margin-top:18px; gap:20px }
+.pxHeroOffer strong { font-size:1.5rem; color:#f3e6ff; font-variant-numeric:tabular-nums }
+.pxHeroOffer button { background:#7751aa; border-color:#9876bd; color:white; padding:9px 16px }
+.pxHeroPager { margin-top:18px; font-size:.8rem; color:#c9bdcf; font-variant-numeric:tabular-nums }
+.pxHeroPager button { padding:0; width:36px; height:36px; background:transparent; font-size:1.4rem; line-height:1 }
+.pxHeroScene { display:grid; place-items:center; min-height:220px; background:#30273d url('/pixaro-world.webp') center 52%/cover }
+.pxHeroScene img { max-width:65%; max-height:185px; object-fit:contain; filter:drop-shadow(0 6px 18px #19131f99) }
+.pxHeroEmpty { display:flex; flex-direction:column; align-items:flex-start; justify-content:center; gap:12px; padding:36px; min-height:190px; background:linear-gradient(90deg,#191321e8,transparent),url('/pixaro-world.webp') center/cover }
+.pxShop #catalog { padding-top:24px; scroll-margin-top:12px }
+.pxSectionHeading { margin-bottom:14px }
+.pxSectionHeading h2 { color:#f5f1f9; font-size:1.5rem; font-weight:700; margin:0 }
+.pxGroup { margin-bottom:22px }
+.pxGroupHead { padding:10px 14px; background:#211e26; border-block:1px solid #39343e }
+.pxGroupHead h3 { margin:0; font-size:1rem; font-weight:700 }
+.pxGroupHead span,.pxProductSpec { font-size:.875rem; color:#bfb7c9 }
+.pxGroup ul { list-style:none; margin:0; padding:0 }
+.pxEntry { display:flex; align-items:center; border-bottom:1px solid #312d37; padding:0 6px }
+.pxEntry:hover,.pxEntry:focus-within { background:#1d1922 }
+.pxShop .pxProductRow { border:0; background:transparent; flex:1; min-width:0; display:grid; grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) auto; align-items:center; text-align:left; gap:16px; padding:11px 8px; min-height:48px; color:#eeeaf2 }
+.pxProductName { min-width:0; display:flex; align-items:center; gap:10px; overflow-wrap:anywhere }
+.pxProductName img { flex:none; width:36px; height:36px; object-fit:contain; border-radius:4px }
+.pxProductSpec { overflow-wrap:anywhere }
+.pxPrice { color:#ebe6f0; text-align:right; white-space:nowrap; font-size:1rem; font-variant-numeric:tabular-nums }
+.pxShop .pxHeart { margin-left:6px; border:0; background:transparent; font-size:1.2rem; width:44px; height:44px; padding:0; color:#b6aeba }
+.pxShop .pxHeart[aria-pressed=true] { color:#d0a6ff }
+@media(max-width:800px) {
+  .pxShop header { flex-wrap:wrap; gap:8px; padding:12px }
+  .pxShop header>a[href="#catalog"] { display:none }
+  .pxShop header input { width:100%; order:1 }
+  .pxShop .pxBrand { margin-right:auto; font-size:20px }
+  .pxBody { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; padding:12px }
+  .pxBody main { display:contents }
+  .pxHero { grid-row:1 }
+  .pxShop aside { border:0; padding:0; min-width:0 }
+  .pxGames { display:flex; gap:4px; overflow-x:auto }
+  .pxGames h2 { display:none }
+  .pxGames button { width:auto; flex:none; white-space:nowrap }
+  .pxBudget { margin:0; padding:4px 10px 8px; border:1px solid #43394f; border-radius:8px }
+  .pxBudget legend { padding:0 5px }
+  .pxSlider { height:30px }
+  .pxShop #catalog { padding-top:0 }
+}
+@media(max-width:540px) {
+  .pxHero { grid-template-columns:minmax(0,1fr) 32% }
+  .pxHeroPanel { padding:16px 12px }
+  .pxHeroPanel h1 { margin-bottom:6px }
+  .pxHeroSlide h2 { font-size:1.55rem }
+  .pxHeroOffer { gap:8px; margin-top:10px }
+  .pxHeroOffer strong { font-size:1.125rem }
+  .pxHeroOffer button { padding:6px 10px }
+  .pxHeroPager { margin-top:10px }
+  .pxHeroScene { min-height:0; background-position:66% center }
+  .pxHeroScene img { max-width:92% }
+  .pxGroupHead { padding:8px }
+  .pxShop .pxProductRow { grid-template-columns:minmax(0,1fr) auto; gap:2px 8px; padding:8px 2px }
+  .pxProductName { grid-area:1/1 }
+  .pxProductName img { width:28px; height:28px }
+  .pxProductSpec { grid-area:2/1 }
+  .pxPrice { grid-area:1/2/3/3 }
+  .pxShop .pxHeart { margin-left:2px }
+}
+@media(min-width:801px) {
+  .pxGames { max-height:52vh; overflow-y:auto; scrollbar-width:thin; padding-right:4px }
+}
